@@ -13,16 +13,23 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+.nav {
+  margin-right: 20px;
+}
 .nav li {
   list-style: none;
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 0.3rem;
-  margin-top: 1.5rem;
+  margin: 0 0.75rem;
+  margin-top: 1.25rem;
 }
-.nav li img {
-  height: 30px;
+#nav1 {
+  height: 20px;
+  opacity: 0.5;
+}
+#nav2 {
+  height: 33px;
 }
 .nav li a {
   text-decoration: none;
