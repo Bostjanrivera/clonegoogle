@@ -8,20 +8,22 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 header {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
-.nav {
-  margin-right: 20px;
-}
+
 .nav li {
   list-style: none;
   text-decoration: none;
   display: inline-block;
   vertical-align: middle;
-  margin: 0 0.75rem;
+  margin-right: 20px;
   margin-top: 1.25rem;
 }
 #nav1 {
@@ -32,11 +34,11 @@ header {
   height: 33px;
 }
 .nav li a {
-  text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
   font-size: 1.3rem;
   line-height: 2.4rem;
 }
+
 .search {
   position: absolute;
   top: 40%;
@@ -47,18 +49,22 @@ header {
   align-items: center;
 }
 .search img {
-  height: 97px;
-  margin-bottom: 20px;
+  height: 9.7rem;
+  margin-bottom: 2rem;
 }
-.search input[type="search"] {
+.search form input[type="search"] {
   width: 58rem;
   height: 4.5rem;
-  padding: 1rem 4.5 rem;
+  padding: 1rem 4.5rem;
   border-radius: 3rem;
   outline: none;
   border-color: rgba(0, 0, 0, 0.2);
   margin-bottom: 3rem;
   font-size: 1.6rem;
+}
+.search-bottons {
+  display: flex;
+  justify-content: center;
 }
 .search-bottons input {
   background-color: #f8f9fa;
@@ -82,7 +88,6 @@ header {
   line-height: 2.8rem;
 }
 .info-search a {
-  text-decoration: none;
   margin: 0 0.5rem;
   color: darkblue;
 }
