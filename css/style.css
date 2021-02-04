@@ -37,3 +37,52 @@ header {
   font-size: 1.3rem;
   line-height: 2.4rem;
 }
+.search {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search img {
+  height: 97px;
+  margin-bottom: 20px;
+}
+.search input[type="search"] {
+  width: 58rem;
+  height: 4.5rem;
+  padding: 1rem 4.5 rem;
+  border-radius: 3rem;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+}
+.search-bottons input {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 0px 4px;
+  margin-bottom: 25px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.info-search {
+  font-size: 1.3rem;
+  line-height: 2.8rem;
+}
+.info-search a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: darkblue;
+}
